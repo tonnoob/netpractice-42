@@ -20,3 +20,9 @@ Cenário B: Você tem o /X (ex: /30) Veja quantos bits faltam para 32: 32 - 30 =
 QUERO DIVIDIR EM X VEZES ex: 4 256 / 4 = 64 256 - 64 = (192)
 
 ---------------
+
+expicar 127.0.0.0/8 loopback
+
+python3 -m http.server 8080
+
+site auxiliar https://www-freecodecamp-org.translate.goog/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc
