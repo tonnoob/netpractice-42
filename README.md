@@ -28,6 +28,10 @@ Cada octeto de um IPV4 equivalem a 256 valores diferentes, pois cada casa de bit
  |    |   |   |   |   |   |   |
 128  64  32  16   8   4   2   1 = 256 valores
 
+| Bit  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+|------|---|---|---|---|---|---|---|---|
+| Valor | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 |
+
 Se "192" é "11000000" em bits, o calculo para sabermos o espaço nesse octeto é
 192 - 256 = 64 cada bloco
 
