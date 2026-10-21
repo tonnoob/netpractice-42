@@ -16,6 +16,16 @@ Pegar o número "mágico" **(256)** e **subtrair** pelo número da máscara agor
 Um **IPV4** possui **32 bits** no total
 255.255.255.255 = (8 bits + 8 bits + 8 bits + 8 bits)
 
+### Conversao de um CIDR "/X" para mascara:
+CIDR e quantos bits tem aquela mascara:
+CIDR /30 significa que temos 30 bits ligados
+Contamos da esquerda para a direita 
+MONTAR TABELA com 255.255.255.
+
+11111100
+
+
+
 vamos usar de exemplo a **CIDR /18**:
 Passo 1: /18
 Passo 2: 18 - 32 = 14
@@ -31,6 +41,8 @@ Cada octeto de um IPV4 equivalem a 256 valores diferentes, pois cada casa de bit
 |------|---|---|---|---|---|---|---|---|---|
 | Valor | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 | <- 256 valores totais |
 
+Tabelinha pra usar na calculadora: 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 
+
 Se "192" é "11000000" em bits, o calculo para sabermos o espaço nesse octeto é:
 192 - 256 = 64 cada bloco
 
@@ -45,6 +57,8 @@ Descobrir tamanho do bloco: Cenário A: Você tem o número da máscara (ex: 224
 Cenário B: Você tem o /X (ex: /30) Veja quantos bits faltam para 32: 32 - 30 = 2 Dobre o número 1 aquela quantidade de vezes (2 vezes): 1 -> 2 -> 4 (tamanho do bloco). Divida 256 pelo tamanho do bloco: 256 / 4 = 64
 
 QUERO DIVIDIR EM X VEZES ex: 4 256 / 4 = 64 256 - 64 = (192)
+255.255.
+11111110
 
 ---------------
 
