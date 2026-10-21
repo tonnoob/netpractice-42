@@ -40,6 +40,7 @@ Cada octeto de um IPV4 equivalem a 256 valores diferentes, pois cada casa de bit
 | Bit  | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | <- 8 bits totais |
 |------|---|---|---|---|---|---|---|---|---|
 | Valor | 128 | 64 | 32 | 16 | 8 | 4 | 2 | 1 | <- 256 valores totais |
+(nesse exemplo acima somente a primeira casa ta ligada, ou seja o valor decimal desse bit e 128)
 
 Tabelinha pra usar na calculadora: 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 
 
