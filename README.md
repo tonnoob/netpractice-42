@@ -62,6 +62,14 @@ QUERO DIVIDIR EM X VEZES ex: 4 256 / 4 = 64 256 - 64 = (192)
 255.255.
 11111110
 
+
+Nesse projeto, mais um dos conceitos que eu entendi e a definicao das rotas de destinos e o proximo salto, o que significa isso? 
+
+- Rede de Destino (Destination): Qual endereço/rede o pacote está buscando. Aqui defino o caminho final
+- Próximo Salto (Next Hop / Gateway): Qual o IP do próximo roteador que vai receber esse pacote.
+
+Foi preciso entender a rede de dest
+
 ---------------
 
 expicar 127.0.0.0/8 loopback
