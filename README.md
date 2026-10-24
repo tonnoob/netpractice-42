@@ -7,6 +7,10 @@ This project focuses on understanding computer networks and IP addresses, connec
 
 
 --------------
+Explicar conceitos simples
+Explicar pc, switchs, roteadores, internet
+em switchs explicar que os pcs conectados em diferentes interfaces precisam estar na mesma rede para conversarem entre si mesmo conectados ao mesmo switch
+
 ANOTAÇÂO: Converter IP de Rede
 
 ### Converter NÚMERO para "/X" (CIDR):
