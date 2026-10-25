@@ -13,7 +13,11 @@ em switchs explicar que os pcs conectados em diferentes interfaces precisam esta
 
 
 FAZER UMA TABELA
-As 3 Faixas Reservadas (RFC 1918):ClasseFaixa de IPsBloco / MáscaraUso ComumClasse A10.0.0.0 até 10.255.255.25510.0.0.0/8Grandes empresas e data centersClasse B172.16.0.0 até 172.31.255.255172.16.0.0/12Redes corporativas de médio/grande porteClasse C192.168.0.0 até 192.168.255.255192.168.0.0/16Roteadores domésticos e pequenas redes
+As 3 Faixas Reservadas (RFC 1918):
+| Classe | Faixa de IPs | Bloco / Máscara | Uso Comum |
+| Classe A | 10.0.0.0 até 10.255.255.255 | 10.0.0.0/8 | Grandes empresas e data centers |
+| Classe B | 172.16.0.0 até 172.31.255.255 | 172.16.0.0/12 | Redes corporativas de médio/grande porte |
+| Classe C | 192.168.0.0 até 192.168.255.255 | 192.168.0.0/16 | Roteadores domésticos e pequenas redes |
 
 explicar também separações
 Rede do Host Three: 159.192.109.4/30
