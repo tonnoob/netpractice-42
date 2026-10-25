@@ -51,7 +51,7 @@ Cada octeto de um IPV4 equivalem a 256 valores diferentes, pois cada casa de bit
 
 (nesse exemplo acima somente a primeira casa ta ligada, ou seja o valor decimal desse bit e 128)
 
-Tabelinha pra usar na calculadora: c + 2 + 1 
+Tabelinha pra usar na calculadora: 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 
 
 Se "192" é "11000000" em bits, o calculo para sabermos o espaço nesse octeto é:
 192 - 256 = 64 cada bloco
