@@ -15,6 +15,14 @@ em switchs explicar que os pcs conectados em diferentes interfaces precisam esta
 FAZER UMA TABELA
 As 3 Faixas Reservadas (RFC 1918):ClasseFaixa de IPsBloco / MáscaraUso ComumClasse A10.0.0.0 até 10.255.255.25510.0.0.0/8Grandes empresas e data centersClasse B172.16.0.0 até 172.31.255.255172.16.0.0/12Redes corporativas de médio/grande porteClasse C192.168.0.0 até 192.168.255.255192.168.0.0/16Roteadores domésticos e pequenas redes
 
+explicar também separações
+Rede do Host Three: 159.192.109.4/30
+Endereço	Função
+159.192.109.4	Endereço da rede
+159.192.109.5	Host utilizável
+159.192.109.6	Host Three
+159.192.109.7	Broadcast
+
 
 ANOTAÇÂO: Converter IP de Rede
 
