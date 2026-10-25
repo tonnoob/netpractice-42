@@ -11,8 +11,7 @@ This project focuses on understanding computer networks and IP addresses, connec
 ### 1. Equipamentos de rede
 - PC (Host)
 -- Um PC, também chamado de host, é um dispositivo conectado à rede. Ele possui uma interface de rede configurada com um endereço IP e uma máscara de sub-rede.
-
-O gateway padrão é utilizado quando o destino está fora da rede local e o host precisa encaminhar o pacote para um roteador.
+-- O gateway padrão é utilizado quando o destino está fora da rede local e o host precisa encaminhar o pacote para um roteador.
 
 Exemplo de configuração:
 
