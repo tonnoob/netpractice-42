@@ -11,6 +11,11 @@ Explicar conceitos simples
 Explicar pc, switchs, roteadores, internet
 em switchs explicar que os pcs conectados em diferentes interfaces precisam estar na mesma rede para conversarem entre si mesmo conectados ao mesmo switch
 
+
+FAZER UMA TABELA
+As 3 Faixas Reservadas (RFC 1918):ClasseFaixa de IPsBloco / MáscaraUso ComumClasse A10.0.0.0 até 10.255.255.25510.0.0.0/8Grandes empresas e data centersClasse B172.16.0.0 até 172.31.255.255172.16.0.0/12Redes corporativas de médio/grande porteClasse C192.168.0.0 até 192.168.255.255192.168.0.0/16Roteadores domésticos e pequenas redes
+
+
 ANOTAÇÂO: Converter IP de Rede
 
 ### Converter NÚMERO para "/X" (CIDR):
@@ -26,7 +31,6 @@ CIDR /30 significa que temos 30 bits ligados
 Contamos da esquerda para a direita 
 MONTAR TABELA com 255.255.255.
 
-11111100
 
 
 
@@ -47,7 +51,7 @@ Cada octeto de um IPV4 equivalem a 256 valores diferentes, pois cada casa de bit
 
 (nesse exemplo acima somente a primeira casa ta ligada, ou seja o valor decimal desse bit e 128)
 
-Tabelinha pra usar na calculadora: 128 + 64 + 32 + 16 + 8 + 4 + 2 + 1 
+Tabelinha pra usar na calculadora: c + 2 + 1 
 
 Se "192" é "11000000" em bits, o calculo para sabermos o espaço nesse octeto é:
 192 - 256 = 64 cada bloco
