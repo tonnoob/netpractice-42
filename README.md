@@ -7,12 +7,65 @@ This project focuses on understanding computer networks and IP addresses, connec
 
 
 --------------
+
+### 1. Equipamentos de rede
+- PC (Host)
+-- Um PC, também chamado de host, é um dispositivo conectado à rede. Ele possui uma interface de rede configurada com um endereço IP e uma máscara de sub-rede.
+
+O gateway padrão é utilizado quando o destino está fora da rede local e o host precisa encaminhar o pacote para um roteador.
+
+Exemplo de configuração:
+
+Campo
+
+Valor
+
+IP
+
+159.192.109.2
+
+Máscara
+
+255.255.255.192 (/26)
+
+Gateway
+
+159.192.109.1
+
+Switch
+
+O switch conecta vários dispositivos dentro de uma rede local (LAN). Ele encaminha quadros de rede entre suas interfaces, utilizando endereços MAC para identificar os dispositivos.
+
+Importante: conectar dois PCs ao mesmo switch não garante que eles consigam se comunicar diretamente.
+
+Para a comunicação direta entre dois hosts IPv4 funcionar, eles normalmente precisam estar na mesma sub-rede, além de possuir configurações válidas. Se estiverem em sub-redes diferentes, precisam de um roteador para encaminhar os pacotes entre elas.
+
+Exemplo:
+PC A: 192.168.1.10/24
+PC B: 192.168.1.20/24
+Os dois pertencem à rede 192.168.1.0/24 e podem se comunicar diretamente pelo switch.
+Agora, se o PC B utilizar 192.168.2.20/24, ele estará em outra sub-rede. Mesmo conectado ao mesmo switch, a comunicação entre as sub-redes precisará de roteamento.
+Roteador (Router)
+O roteador conecta redes IP diferentes e encaminha pacotes entre elas.
+Cada interface do roteador que participa de uma rede possui seu próprio endereço IP e sua própria máscara.
+Quando um pacote chega ao roteador, ele consulta sua tabela de rotas para decidir por qual interface deve encaminhá-lo e qual será o próximo salto, quando necessário.
+Exemplo:
+Rede local: 192.168.1.0/24
+Interface do roteador nessa rede: 192.168.1.1
+Gateway configurado nos PCs: 192.168.1.1
+Quando um PC precisa acessar um destino fora da rede local, ele envia o pacote ao gateway.
+Internet
+A Internet é uma rede global formada pela interconexão de inúmeras redes.
+Em um exercício do NetPractice, o elemento Internet representa um destino externo. Para alcançar esse destino, os roteadores precisam ter rotas adequadas.
+Também é necessário existir um caminho de retorno para que as respostas cheguem ao host que iniciou a comunicação.
+
+-------------------
+
 Explicar conceitos simples
 Explicar pc, switchs, roteadores, internet
 em switchs explicar que os pcs conectados em diferentes interfaces precisam estar na mesma rede para conversarem entre si mesmo conectados ao mesmo switch
 
 
-FAZER UMA TABELA
 As 3 Faixas Reservadas (RFC 1918):
 | Classe | Faixa de IPs | Bloco / Máscara | Uso Comum |
 |------|---|---|---|
