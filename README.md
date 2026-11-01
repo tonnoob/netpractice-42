@@ -5,8 +5,22 @@
 ## Description
 This project focuses on understanding computer networks and IP addresses, connecting devices through routers, and understanding the role of gateways in a network. It also covers subnetting concepts, including IP masks, CIDR notation, block sizes, and network address ranges.
 
+---
 
---------------
+## Instructions
+
+### Como abrir o projeto
+
+Por motivos autorais da 42 não posso colocar o arquivo HTML aqui, mas posso mostrar o fluxo.
+
+Inicialmente vem uma pasta, com os arquivos do projeto, basicamente é um html com js. Baixo a pasta, abro o terminal e entro na pasta pelo terminal, rodo o comando "python3 -m http.server 8080" e acesso o projeto via "http://localhost:8080/" na pagina do navegador, mas você pode tambem só abrir o index com o comando python rodando no terminal.
+
+Comandos:
+
+	python3 -m http.server 8080 
+
+	http://localhost:8080/end.html
+
 
 ### 1. Equipamentos de rede
 - **PC (Host)** - Um PC, também chamado de host, é um dispositivo conectado à rede. Ele possui uma interface de rede configurada com um endereço IP e uma máscara de sub-rede.
@@ -334,8 +348,10 @@ Lembrete: o objetivo não é apenas fazer o pacote chegar ao destino. É garanti
 
 ---
 
-expicar 127.0.0.0/8 loopback
+## Resources
 
-python3 -m http.server 8080
 
-Inicialmente um site que me auxiliou com máscaras: https://www-freecodecamp-org.translate.goog/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc
+
+Inicialmente uma página que me auxiliou com máscaras: https://www-freecodecamp-org.translate.goog/news/subnet-cheat-sheet-24-subnet-mask-30-26-27-29-and-other-ip-address-cidr-network-references/?_x_tr_sl=en&_x_tr_tl=pt&_x_tr_hl=pt&_x_tr_pto=tc
+
+Para tirar dúvidas utilizei também: https://chatgpt.com/ e https://gemini.google.com/ e também colegas da 42.
